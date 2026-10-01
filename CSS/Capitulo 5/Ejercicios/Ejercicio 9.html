@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<!-- Ejercicio 9 -->
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Ejercicio 9</title>
+      <style type="text/css">
+         #portada {
+            position: relative;
+            margin: 0 auto;
+            width: 300px;
+            height: 400px;
+         }
+         #portada img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            -webkit-transition: opacity 3s linear;
+            transition: opacity 3s linear;
+         }
+         /* Al pasar el cursor sobre cada imagen superior, se oculta para revelar la inferior */
+         #portada img:hover {
+            opacity: 0;
+         }
+      </style>
+   </head>
+   <body>
+      <a href="../Indices/IndiceC5.html">Ir a la página principal</a>
+      <hr>
+      
+      <div id="portada">
+         <img src="../../Imagenes/borde.jpg" alt="Imagen 5" style="z-index: 1;">
+         <img src="../../Imagenes/camello.jpg" alt="Imagen 4" style="z-index: 2;">
+         <img src="../../Imagenes/correo.jpg" alt="Imagen 3" style="z-index: 3;">
+         <img src="../../Imagenes/imagen_fondo.png" alt="Imagen 2" style="z-index: 4;">
+         <img src="../../Imagenes/logoDeitel.jpg" alt="Imagen 1" style="z-index: 5;">
+      </div>
+   </body>
+</html>

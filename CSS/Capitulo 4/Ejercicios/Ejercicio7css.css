@@ -1,0 +1,27 @@
+/* CSS - Ejercicio 7 */
+
+.boton-navegacion {
+  display: inline-block;
+  background-color: #007bff;
+  border: 2px solid #0056b3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.boton-navegacion a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  display: block;
+}
+
+.boton-navegacion:hover {
+  background-color: #0056b3;
+  border-color: #003d80;
+}
+
+.boton-navegacion:hover a {
+  color: #e0e0e0;
+}

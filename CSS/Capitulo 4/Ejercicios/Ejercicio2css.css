@@ -1,0 +1,8 @@
+/* CSS - Ejercicio 2*/
+
+body {
+  background-image: url("../../Imagenes/imagen_fondo.png");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+}

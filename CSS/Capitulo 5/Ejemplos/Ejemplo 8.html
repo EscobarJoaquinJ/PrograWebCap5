@@ -1,0 +1,36 @@
+<DOCTYPE html>
+
+<!-- Fig. 5.9: reflejo.hmtl -->
+<!-- Reflejos en CSS3. -->
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>Reflejo</title>
+        <style type="tect/css">
+            img { margin-right: 30px; }
+            img.below
+            {
+                -webkit-box-reflect: below 5px
+                    -webkit-gradient(
+                        linear, left top, left bottom,
+                        from(transparent), to(white));
+            }
+            img.right
+            {
+                -webkit-box-reflect: right 5px
+                    -webkit-gradient(
+                        linear, right top, left top,
+                        from(transparent), to(white));
+            }
+        </style>
+    </head>
+    <body>
+        <a href="../Indices/IndiceC5.html">Ir a la página principal</a>
+        <hr>
+        
+        <img class="below" src="../../Imagenes/jhtp.jpg" width="138" height="180"
+            alt="Portada del libro JavaHow to Program">
+        <img class="right" src="../../Imagenes/jhtp.jpg" width="138" height="180" 
+            alt="Portada del libro Java How to Program">
+    </body>
+</html>
